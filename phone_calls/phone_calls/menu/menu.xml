@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Phone Call Main Menu -->
+    <menuitem id="phone_calls_main_menu" name="Calls"
+              web_icon="phone_calls,static/description/icon.png"
+              sequence="1"/>
+
+    <!-- Phone Call Sub Menu-->
+    <menuitem id="phone_calls_menu" name="Phone Calls"
+              action="phone_calls.action_phone_calls"
+              parent="phone_calls_main_menu"
+              sequence="1"/>
+</odoo>
